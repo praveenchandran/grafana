@@ -1,4 +1,47 @@
 {
+  "__inputs": [
+    {
+      "name": "DS_CLOUDWATCH",
+      "label": "CloudWatch",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "cloudwatch",
+      "pluginName": "CloudWatch"
+    }
+  ],
+  "__elements": [],
+  "__requires": [
+    {
+      "type": "datasource",
+      "id": "cloudwatch",
+      "name": "CloudWatch",
+      "version": "1.0.0"
+    },
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "8.4.5"
+    },
+    {
+      "type": "panel",
+      "id": "graph",
+      "name": "Graph (old)",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "stat",
+      "name": "Stat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "text",
+      "name": "Text",
+      "version": ""
+    }
+  ],
   "annotations": {
     "list": [
       {
@@ -22,8 +65,8 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
-  "iteration": 1649015206655,
+  "id": null,
+  "iteration": 1649015881797,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -494,7 +537,7 @@
           "alias": "",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "WY73nXy7k"
+            "uid": "${DS_CLOUDWATCH}"
           },
           "dimensions": {
             "Broker": "$broker",
@@ -593,7 +636,7 @@
           "alias": "",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "WY73nXy7k"
+            "uid": "${DS_CLOUDWATCH}"
           },
           "dimensions": {
             "Broker": "$broker",
@@ -1321,7 +1364,7 @@
       },
       "id": 26,
       "options": {
-        "content": "\n<a href=\"https://github.com/praveenchandran/grafana\" target=\"_blank\"/>Github Repo</a> | \n<a target=\"_blank\" href=\"https://github.com/praveenchandran\">Author</a> |\n<a target=\"_blank\" href=\"https://grafana.com/dashboards/123\">Download link</a> |\n<a target=\"_blank\" href=\"https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/security-logging-monitoring-cloudwatch.html\">AWS Cloudwatch documentation</a>",
+        "content": "\n<a href=\"https://github.com/praveenchandran/grafana\" target=\"_blank\"/>Github Repo</a> | \n<a target=\"_blank\" href=\"https://github.com/praveenchandran\">Author</a> |\n<a target=\"_blank\" href=\"https://grafana.com/dashboards/16042\">Download link</a> |\n<a target=\"_blank\" href=\"https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/security-logging-monitoring-cloudwatch.html\">AWS Cloudwatch documentation</a>",
         "mode": "html"
       },
       "pluginVersion": "8.4.5",
@@ -1352,11 +1395,7 @@
         "type": "datasource"
       },
       {
-        "current": {
-          "selected": false,
-          "text": "eu-central-1",
-          "value": "eu-central-1"
-        },
+        "current": {},
         "datasource": {
           "uid": "$datasource"
         },
@@ -1379,11 +1418,7 @@
         "useTags": false
       },
       {
-        "current": {
-          "selected": true,
-          "text": "AMQ_production-2",
-          "value": "AMQ_production-2"
-        },
+        "current": {},
         "datasource": {
           "uid": "$datasource"
         },
@@ -1412,8 +1447,8 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Amazon MQ (ActiveMQ)",
+  "title": "Amazon MQ",
   "uid": "vc4NElynz",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
