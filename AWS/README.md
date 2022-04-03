@@ -1,4 +1,4 @@
-# grafana
+# AWS Dashboards
 This folder contains grafana dashboards to visualize metrics for various resources for AWS.
 
 ## Contents
