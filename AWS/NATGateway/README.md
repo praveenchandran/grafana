@@ -4,7 +4,6 @@ This dashboard shows the Incoming and Outgoing traffic from CloudWatch for NAT G
 
 ## Pre-requisites :
 * Text panel
-* Stats Panel
 * Graph Panel
 * Permission to read CloudWatch metrics from AWS
 
