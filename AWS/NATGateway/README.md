@@ -8,4 +8,4 @@ This dashboard shows the Incoming and Outgoing traffic from CloudWatch for NAT G
 * Graph Panel
 * Permission to read CloudWatch metrics from AWS
 
-Dashboard link : https://grafana.com/grafana/dashboards/16042
+Dashboard link : https://grafana.com/grafana/dashboards/16185
