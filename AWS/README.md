@@ -4,3 +4,4 @@ This folder contains grafana dashboards to visualize metrics for various resourc
 ## Contents
 *  [`Amazon MQ`](AmazonMQ)
 *  [`NAT Gateway`](NATGateway)
+*  [`Transit Gateway`](TransitGateway)

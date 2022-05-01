@@ -1,4 +1,4 @@
-# Amazon MQ (ActiveMQ)
+# AWS NAT Gateway
 
 This dashboard shows the Incoming and Outgoing traffic from CloudWatch for NAT Gateways.
 
