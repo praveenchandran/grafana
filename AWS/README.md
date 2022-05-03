@@ -5,3 +5,4 @@ This folder contains grafana dashboards to visualize metrics for various resourc
 *  [`Amazon MQ`](AmazonMQ)
 *  [`NAT Gateway`](NATGateway)
 *  [`Transit Gateway`](TransitGateway)
+*  [`API Gateway`](APIGateway)
